@@ -121,7 +121,7 @@
 }
 .read_more2 {
   cursor: pointer;
-  color: var(--colorPrimary);
+  color: #0d6efd;
 }
 
 /* Common Code */
@@ -309,6 +309,6 @@
 .submit-btn:hover,
 .submit-btn:focus-visible,
 .submit-btn:active {
-  background-color: var(--colorSecondary) !important;
+  background-color: var(--colorBlack) !important;
   border: none !important;
 }
