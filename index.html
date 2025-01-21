@@ -153,112 +153,157 @@
     <main>
       <!-- Slider Section -->
       <section id="slider_section">
-        <!--  Slider -->
-        <div
-          id="carousel-Indicators"
-          class="carousel slide desktop-slider"
-          data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carousel-Indicators"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"></button>
-            <button
-              type="button"
-              data-bs-target="#carousel-Indicators"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button
-              type="button"
-              data-bs-target="#carousel-Indicators"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
+        <div class="container-fluid">
+          <div class="row row-col-1 row-cols-md-4">
+            <div class="col-md-4 text-center">
+              <div class="container slider-content">
+                <div class="slider-Heading">
+                  <h4>Booking Now</h4>
+                </div>
+                <div class="slider-name">
+                  <h2 class="section-heading fw-bold">Basalt Hills</h2>
+                  <span>At Khalapur </span><br />
+                  <span>By Ascenta</span>
+                </div>
+                <div class="slider-hightlight">
+                  <div class="slider-border">
+                    <span>Land Parcel : 20 Acres </span><br />
+                    <span>Plots Size : 5000 to 10,000 sq. ft</span><br />
+                    <span>Total Plots : 196</span>
+                  </div>
+                </div>
+                <div class="slider-pricing mt-3">
+                  <span>Bungalow Plots </span>
+                  <span>
+                    Starting At,<br />
+                    <b> ₹4,500 / Sq.Ft. + Taxes* </b>
+                  </span>
+                </div>
+                <button
+                  class="pro-button effectMoveGradient mt-5 mb-3"
+                  data-bs-toggle="modal"
+                  data-bs-target="#popupModal">
+                  <i class="fa-solid fa-phone"></i> Enquire Now
+                </button>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div
+                id="main_slider"
+                class="carousel slide carousel-fade"
+                data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#main_slider"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"></button>
+                  <button
+                    type="button"
+                    data-bs-target="#main_slider"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="img/banners/banner_mobile1.jpg"
+                      class="d-block w-100 img-fluid"
+                      alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="img/banners/banner_mobile2.jpg"
+                      class="d-block w-100 img-fluid"
+                      alt="..." />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#main_slider"
+                  data-bs-slide="prev">
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#main_slider"
+                  data-bs-slide="next">
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <div class="container slider-content2">
+                <div class="slider-Heading">
+                  <h4 style="font-size: 1.5em">Project Highlights</h4>
+                </div>
+
+                <div class="slider_hightlights">
+                  <span>
+                    <i class="fa-solid fa-circle-check"></i> Gated Community
+                  </span>
+                  <br />
+
+                  <span>
+                    <i class="fa-solid fa-circle-check"></i> Generous Size Plots
+                  </span>
+                  <br />
+
+                  <span>
+                    <i class="fa-solid fa-circle-check"></i> Luxurious Bungalows
+                  </span>
+                  <br />
+
+                  <span>
+                    <i class="fa-solid fa-circle-check"></i> 20 Acres Land
+                    Parcel
+                  </span>
+                  <br />
+
+                  <span>
+                    <i class="fa-solid fa-circle-check"></i> Strategic
+                    Connectivity
+                  </span>
+                  <br />
+
+                  <span>
+                    <i class="fa-solid fa-circle-check"></i> Nature & Forest
+                    Theme Residences
+                  </span>
+                  <br />
+
+                  <span>
+                    <i class="fa-solid fa-circle-check"></i> Modern
+                    Infrastructure
+                  </span>
+                  <br />
+
+                  <span>
+                    <i class="fa-solid fa-circle-check"></i> Unparalleled Views
+                  </span>
+                  <br />
+                </div>
+                <button
+                  class="pro-button effectMoveGradient mb-3 mt-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#popupModal">
+                  Download Brochure
+                </button>
+              </div>
+            </div>
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                class="d-block w-100 banner0"
-                width="100%"
-                src="img/banners/desktop_banner1.jpg"
-                alt="Banner1" />
-            </div>
-            <div class="carousel-item">
-              <img
-                class="d-block w-100 banner2"
-                width="100%"
-                src="img/banners/desktop_banner1.jpg"
-                alt="Banner2" />
-            </div>
-            <div class="carousel-item">
-              <img
-                class="d-block w-100 banner2"
-                width="100%"
-                src="img/banners/desktop_banner2.jpg"
-                alt="Banner2" />
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carousel-Indicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carousel-Indicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-
-        <!-- InfoBox -->
-        <div class="info-box text-center">
-          <span class="d-block info-status text-center effectGradient">
-            BOOK NOW
-          </span>
-          <span class="info-title d-block text-center section-heading">
-            Basalt Hills
-          </span>
-          <span class="info-location d-block text-center pb-1">
-            At Khalapur
-          </span>
-
-          <!-- Offer Colored Box -->
-
-          <!-- Offer Colored Box -->
-          <span class="d-block mb-1 text-capitalize of-box offer-bg-animation">
-            <span class="offer-text-outer">
-              <span class="offer-text">
-                G+39, 2 Grand Towers
-                <br />
-                Luxurious 3 & 4 BHK Apartments
-                <br />
-                Dedicated 4-Level Parking Area
-                <br />
-                Spread Across 2.5 Acres
-                <br />
-              </span>
-            </span>
-          </span>
-          <span class="info-tag-line p-2"> 3 BHK Starting From </span>
-          <span class="info-price pb-3">₹ 1.79 Cr* Onwards </span>
-
-          <button
-            class="pro-button effectMoveGradient"
-            data-bs-toggle="modal"
-            data-bs-target="#popupModal">
-            Download Brochure
-          </button>
         </div>
       </section>
-      <!-- Slider Section Ends -->
 
       <!-- Overview Section  -->
       <section id="overview_section" class="container p-4 mt-3">
@@ -276,16 +321,19 @@
           </div>
           <div class="col-12 col-md-7">
             <p class="overview_para mt-3">
-              Introducing “Basalt Hill” by Ascenta – an exclusive villa project
+              Introducing “Basalt Hill” by Ascenta - an exclusive villa project
               that defines luxury living in harmony with nature. These
               state-of-the-art villas, nestled in a serene landscape, embody
               modern elegance seamlessly blending with the natural surroundings.
-              Ascenta’s commitment to excellence is evident in every detail,
+              Ascenta's commitment to excellence is evident in every detail,
               from eco-friendly materials to exquisite interiors, offering an
               unparalleled living experience. At Basalt Hill, embrace luxury,
               space, and privacy while connecting with nature, all complemented
               by modern amenities in a prestigious community. Welcome to a new
-              standard of living at Ascenta’s Basalt Hill.
+              standard of living at Ascenta's Basalt Hill. Where nature meets
+              luxury. Nestled on the scenic slopes, our exclusive residences
+              offer unparalleled views, blending the rugged beauty of basalt
+              terrain with high-end, modern living.
             </p>
 
             <section class="container p-4">
@@ -343,6 +391,90 @@
         </div>
       </section>
       <!-- Overview Section Ends -->
+
+      <!-- Gallery Section -->
+      <section id="gallery_section" class="container p-4 mt-3">
+        <div>
+          <h3 class="section-heading">GALLERY</h3>
+        </div>
+
+        <!-- Gallery -->
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-4">
+            <div class="col-12 col-md-4 col-lg-3 g-3 gal-img">
+              <img
+                class="img-fluid"
+                data-fancybox="gallery"
+                src="img/gallery/gallery01.jpg"
+                data-src="img/gallery/gallery01.jpg"
+                alt="" />
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3 g-3 gal-img">
+              <img
+                class="img-fluid"
+                data-fancybox="gallery"
+                src="img/gallery/gallery02.jpg"
+                data-src="img/gallery/gallery02.jpg"
+                alt="" />
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3 g-3 gal-img">
+              <img
+                class="img-fluid"
+                data-fancybox="gallery"
+                src="img/gallery/gallery03.jpg"
+                data-src="img/gallery/gallery03.jpg"
+                alt="" />
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3 g-3 gal-img">
+              <img
+                class="img-fluid"
+                data-fancybox="gallery"
+                src="img/gallery/gallery04.jpg"
+                data-src="img/gallery/gallery04.jpg"
+                alt="" />
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3 g-3 gal-img">
+              <img
+                class="img-fluid"
+                data-fancybox="gallery"
+                src="img/gallery/gallery05.jpg"
+                data-src="img/gallery/gallery05.jpg"
+                alt="" />
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3 g-3 gal-img">
+              <img
+                class="img-fluid"
+                data-fancybox="gallery"
+                src="img/gallery/gallery06.jpg"
+                data-src="img/gallery/gallery06.jpg"
+                alt="" />
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3 g-3 gal-img">
+              <img
+                class="img-fluid"
+                data-fancybox="gallery"
+                src="img/gallery/gallery07.jpg"
+                data-src="img/gallery/gallery07.jpg"
+                alt="" />
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3 g-3 gal-img">
+              <img
+                class="img-fluid"
+                data-fancybox="gallery"
+                src="img/gallery/gallery08.jpg"
+                data-src="img/gallery/gallery08.jpg"
+                alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
