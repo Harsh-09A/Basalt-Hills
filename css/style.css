@@ -18,8 +18,9 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 :root {
-  --colorPrimary: #e42327;
-  --colorSecondary: #03045e;
+  --colorPrimary: #095c32;
+  --colorSecondary: #206642;
+  --colorTertiary: green;
   --colorBlack: #000000;
   --colorWhite: #ffffff;
   --colorBackgroundBlack: #000000bd;
@@ -265,4 +266,99 @@ main {
   padding: 0.5em 1.5em;
   border-radius: 10px;
   text-transform: capitalize;
+}
+
+/* Overview */
+#overview_section .sub-heading {
+  color: var(--colorBlack);
+}
+/* .overview_img {
+  height: 400px;
+  width: 400px;
+} */
+.overview_img img {
+  width: 450px;
+  aspect-ratio: 1;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.overview_para {
+  text-align: justify;
+}
+
+/* Highlights */
+.hightlight_item .items {
+  margin-bottom: 10px;
+}
+
+.hightlight_item .items:last-child {
+  margin-bottom: 0;
+}
+
+.hightlight_wrap {
+  /* text-align: center; */
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  transition: all 0.5s ease;
+  margin: 0;
+  border: 1px solid #ebebeb;
+}
+
+.hightlight_wrap img {
+  width: 35px !important;
+  margin-right: 10px !important;
+  filter: invert(12%) sepia(96%) saturate(5521%) hue-rotate(353deg)
+    brightness(87%) contrast(84%);
+}
+
+.hightlight_wrap p {
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.hightlight_wrap h6 {
+  margin-bottom: 0;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+.hightlight_wrap:hover {
+  transition: all 0.5s ease;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3);
+}
+
+.hightlight_wrap.home_page {
+  margin-bottom: 0;
+  padding: 30px 10px;
+  box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.45);
+  transition: all 0.5s ease;
+  justify-content: center;
+  align-items: unset;
+}
+
+.hightlight_wrap.home_page img {
+  width: 80px !important;
+  margin-bottom: 10px;
+  margin-right: 0 !important;
+}
+
+.hightlight_wrap.home_page:hover {
+  transition: all 0.5s ease;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3);
+}
+
+.hightlight_wrap.home_page p {
+  font-size: 0.8vw;
+  line-height: 1.1vw;
 }
